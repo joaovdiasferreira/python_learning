@@ -38,8 +38,12 @@ else:
     #else runs when no errors happens
 '''
 
+<<<<<<< HEAD
 
 '''#using finally
+=======
+#using finally
+>>>>>>> f37970ea5e741fa747aac24348b0c288cc49bfa0
 try:
     num = int(input("Enter a number: "))
 except ValueError:
@@ -47,6 +51,7 @@ except ValueError:
 except ZeroDivisionError:
     print("Oops! You can't divide by zero.")
 finally:
+<<<<<<< HEAD
     print("Result: ", 10/num) #this code will divide even if the input is 0 or string'''
 
 #full structure
@@ -60,3 +65,7 @@ else:
 finally:
     #always runs, even when errors happens
 """
+=======
+    print("Result: ", 10/num)
+
+>>>>>>> f37970ea5e741fa747aac24348b0c288cc49bfa0
